@@ -1,0 +1,1 @@
+patient1.nrrd -threshold 380 inf 1 0 -erode 1x1x1vox -threshold 1 1 1 0 -dilate 1x1x1vox -scale -1 shift 1 -comp -threshold 1 1 0 1 region 20x20x20vox 50x60x70vox -o segmentation.nrrd
